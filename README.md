@@ -1,14 +1,13 @@
-<h1 align="center"> OndeckChallenge </h1>
+<h1 align="center"> Ondeck Challenge </h1>
 
 <p align="center">
+Recriação de site, responsivo e para mobile.
 <br/>
-<a href="#">Veja o desafio concluido nesse site. </a>
+<a href="#"> Conclusão do desafio nesse site.</a>
 </p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -18,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img alt="ondeck challenge" src=".github/preview.jpg" width="100%">
+  <img alt="ondeck challenge" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -26,6 +25,8 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML & CSS
+- JavaScript (ainda não adicionado)
+- Git & Github
 
 ## :memo: Licença
 
