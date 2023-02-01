@@ -1,7 +1,7 @@
 <h1 align="center"> OndeckChallenge </h1>
 
 <p align="center">
- <br/>
+<br/>
 <a href="#">Veja o desafio concluido nesse site. </a>
 </p>
 
@@ -18,10 +18,9 @@
 <br>
 
 <p align="center">
-<img alt="ondeck challenge" src=".github/preview.jpg" width="100%">
-<img alt="ondeck challenge" src=".github/preview-mobile.jpg" width="100%">
-<img alt="ondeck challenge" src=".github/preview-mobile-nav.jpg" width="100%">
-
+  <img alt="ondeck challenge" src=".github/preview.jpg" width="100%">
+  <img alt="ondeck challenge" src=".github/preview-mobile.jpg" width="100%">
+  <img alt="ondeck challenge" src=".github/preview-mobile-nav.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -36,4 +35,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito por Victor Marques.
+Feito por Victor Marques
