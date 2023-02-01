@@ -19,8 +19,6 @@
 
 <p align="center">
   <img alt="ondeck challenge" src=".github/preview.jpg" width="100%">
-  <img alt="ondeck challenge" src=".github/preview-mobile.jpg" width="100%">
-  <img alt="ondeck challenge" src=".github/preview-mobile-nav.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
