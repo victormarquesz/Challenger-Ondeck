@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: rgb(243, 236, 228);
+}
+
+.container {
+  width: 1300px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  margin-top: 30px;
+}
+
+.header h1 {
+  font-weight: 700;
+  opacity: 30%;
+}
+
+
+
+
+/* left header */
+.logo {
+  margin-top: 15px;
+}
+
+.menu {
+  display: flex;
+  font-size: 0.5em;
+  align-items: center;
+  margin: auto;
+  gap: 45px;
+}
+
+.products {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.products h1:hover{
+  opacity: 100%;
+  text-shadow: 2px 2px 20px #bdbdbd;
+}
+
+.challenges {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.challenges h1:hover{
+  opacity: 100%;
+  text-shadow: 2px 2px 20px #bdbdbd;
+}
+
+.resources {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.resources h1:hover{
+  opacity: 100%;
+  text-shadow: 2px 2px 20px #bdbdbd;
+}
+
+.outherLinks {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.outherLinks h1:hover{
+  opacity: 100%;
+  text-shadow: 2px 2px 20px #bdbdbd;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.content-menu {
+  display: none;
+  position: fixed;
+  background-color: #ffffff;
+  max-width: 400px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+  padding: 35px 35px 15px 35px;
+  border-radius: 12px;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.img-content img {
+  position: absolute;
+}
+
+.opencontent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  gap: 2px;
+}
+.opencontent h2{
+  margin-bottom: 2px;
+  position: relative;
+  top: 3px;
+  font-size: 1.1em;
+  color: rgb(23, 39, 71);
+  text-shadow:0.2px 0 #000000;
+}
+
+.opencontent p{
+  opacity: 50%;
+  color: #000000;
+  font-weight: bold;
+  display: inline;
+  margin-bottom: 20px;
+}
+
+/* Links inside the dropdown */
+.content-menu .products-content{
+  color: rgb(17, 16, 17);
+  font-size: 1.5em;
+  display: block;
+}
+
+.products:hover .content-menu {
+  display: block;
+}
+
+.content-menu .challenges-content{
+  color: rgb(17, 16, 17);
+  font-size: 1.5em;
+  display: block;
+}
+
+.challenges:hover .content-menu {
+  display: block;
+}
+
+.content-menu .resources-content{
+  color: rgb(17, 16, 17);
+  font-size: 1.5em;
+  display: block;
+}
+
+.resources:hover .content-menu {
+  display: block;
+}
+
+.content-menu .outherLinks-content{
+  color: rgb(17, 16, 17);
+  font-size: 1.5em;
+  display: block;
+}
+
+.outherLinks:hover .content-menu {
+  display: block;
+}
+
+
+.content-menu:before,
+.content-menu:after {
+  content: ' ';
+  display: block;
+  border-style: solid;
+  border-width: 0 .5em .8em .5em;
+  border-color: transparent;
+  position: absolute;
+  scale: 2.2;
+}
+
+.content-menu:before {
+  top: -.8em;
+}
+
+.content-menu:after {
+  top: -.7em;
+  border-bottom-color: white;
+}
+
+
+/* rigt header */
+.rightHeader {
+  display: flex;
+  font-size: 0.5em;
+  align-items: center;
+  gap: 30px;
+}
+
+.sighIn {
+  cursor: pointer;
+}
+
+.tryforFree {
+  max-width: 170px;
+  font-size: 12px;
+  padding: 20px 35px;
+  color: rgb(233, 233, 233);
+  background-color: rgb(0, 61, 10);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tryforFree:hover{
+  scale: 2px;
+}
+
+.section{
+  display: flex;
+}
+
+/* content left */
+
+.left-content {
+  margin-top: 150px;
+  width: auto;
+}
+.content-text h1 {
+  font-size: 4.5em;
+  margin-bottom: 20px;
+}
+
+.content-text p {
+  font-size: 1.25em;
+  opacity: 70%;
+  margin-bottom: 20px;
+}
+
+.reviews {
+  margin-top: 40px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.reviews img {
+  display: flex;
+  width: 25px;
+}
+
+
+
+
+
+/* right content */
+.right-content {
+  margin-top: 100px;
+  margin-left: auto;
+  padding-left: 40px;
+}
+.right-content img {
+  width: 400px;
+}
+
+
+
+
+/* footer */
+.footer {
+  margin-top: 100px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.title h1 {
+  font-weight: bold;
+  font-size: 1em;
+  opacity: 50%;
+  margin-bottom: 30px;
+}
+
+.supporters {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+} 
